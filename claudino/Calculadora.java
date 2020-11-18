@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        //criando um objeto c a apartir do metodo calc
+       
         Calc c = new Calc();
 
-        //declarando as varíaveis
+        
         int opcao = 5;
         int num1;
         int num2;
@@ -30,11 +30,7 @@ public class Main {
 
 
             if (opcao == 1) {
-                ///???????
-                /**Que outra maneira poderia ser recebido
-                 * os numeros, sem que se repita as próximas
-                 * linhas para todas operações**/
-
+     
 
                 Scanner input1 = new Scanner(System.in);
 
@@ -43,7 +39,7 @@ public class Main {
                 System.out.println("Qual o segundo numero: ");
                 num2 = input1.nextInt();
 
-                /***/
+                
                 int operacao = c.som(num1, num2);
 
                 System.out.println(operacao);
